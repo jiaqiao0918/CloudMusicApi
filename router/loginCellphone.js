@@ -7,8 +7,6 @@ router.get('/', (req, res) => {
   const phone = req.query.phone
   const cookie = req.get('Cookie') ? req.get('Cookie') : ''
   const md5sum = crypto.createHash('md5')
-  console.dir("md5sum: ")
-  console.dir(md5sum)
   md5sum.update(req.query.password)
   const md5password = md5sum.digest('hex')
   const data = {
@@ -16,12 +14,6 @@ router.get('/', (req, res) => {
     password: md5password,
     rememberLogin: 'true'
   }
-  console.dir("md5password: ")
-  console.dir(md5password)
-  console.dir("data: ")
-  console.dir(data)
-  console.dir("cookie: ")
-  console.dir(cookie)
   createWebAPIRequest(
     'music.163.com',
     '/weapi/login/cellphone',

@@ -38,6 +38,20 @@ function createWebAPIRequest(
 ) {
   let music_req = ''
   const cryptoreq = Encrypt(data)
+  console.dir("host: ");
+  console.dir("      "+host);
+  console.dir("path: ");
+  console.dir("      "+path);
+  console.dir("method: ");
+  console.dir("      "+method);
+  console.dir("data: ");
+  console.dir("      "+data);
+  console.dir("cookie: ");
+  console.dir("      "+cookie);
+  console.dir("callback: ");
+  console.dir("      "+callback);
+  console.dir("errorcallback: ");
+  console.dir("      "+errorcallback);
   const http_client = http.request(
     {
       hostname: host,
@@ -80,6 +94,8 @@ function createWebAPIRequest(
       }
     }
   )
+  console.dir("http_client: ");
+  console.dir(http_client);
   http_client.write(
     querystring.stringify({
       params: cryptoreq.params,
