@@ -1,0 +1,191 @@
+'++++++http_client: '
+ClientRequest {
+  domain: null,
+  _events:
+   { response: { [Function: bound onceWrapper] listener: [Function] },
+     socket: { [Function: bound onceWrapper] listener: [Function: onSocket] } },
+
+  _eventsCount: 2,
+  _maxListeners: undefined,
+  output: [],
+  outputEncodings: [],
+  outputCallbacks: [],
+  outputSize: 0,
+  writable: true,
+  _last: true,
+  upgrading: false,
+  chunkedEncoding: false,
+  shouldKeepAlive: false,
+  useChunkedEncodingByDefault: true,
+  sendDate: false,
+  _removedConnection: false,
+  _removedContLen: false,
+  _removedTE: false,
+  _contentLength: null,
+  _hasBody: true,
+  _trailer: '',
+  finished: false,
+  _headerSent: false,
+  socket: null,
+  connection: null,
+  _header: null,
+  _onPendingData: [Function: noopPendingOutput],
+  agent:
+   Agent {
+     domain: null,
+     _events: { free: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     defaultPort: 80,
+     protocol: 'http:',
+     options: { path: null },
+     requests: {},
+     sockets: { 'music.163.com:80:': [Array] },
+     freeSockets: {},
+     keepAliveMsecs: 1000,
+     keepAlive: false,
+     maxSockets: Infinity,
+     maxFreeSockets: 256 },
+  socketPath: undefined,
+  timeout: undefined,
+  method: 'POST',
+  path: '/weapi/login/cellphone',
+  _ended: false,
+  res: null,
+  aborted: undefined,
+  timeoutCb: null,
+  upgradeOrConnect: false,
+  parser: null,
+  maxHeadersCount: null,
+  [Symbol(outHeadersKey)]:
+   { accept: [ 'Accept', '*/*' ],
+     'accept-language': [ 'Accept-Language', 'zh-CN,zh;q=0.8,gl;q=0.6,zh-TW;q=0.
+4' ],
+     connection: [ 'Connection', 'keep-alive' ],
+     'content-type': [ 'Content-Type', 'application/x-www-form-urlencoded' ],
+     referer: [ 'Referer', 'http://music.163.com' ],
+     host: [ 'Host', 'music.163.com' ],
+     cookie:
+      [ 'Cookie',
+        'Phpstorm-d94e29df=bd7baa35-4aa8-4300-bc9e-707a14903676; Hm_lvt_82116c62
+6a8d504a5c0675073362ef6f=1507600384,1507606249; oracle.uix=0^^GMT+8:00^p; __reme
+mber_me=true; MUSIC_U=13b64ea483c469314a584fafcfc55e69c28187537886526142ab3eccc2
+6b9db5743fc8db9642f71235671f2ddd10f2d141049cea1c6bb9b6; __csrf=39a30976579ea600f
+56d858a32ddee47' ],
+     'user-agent':
+      [ 'User-Agent',
+        'Mozilla/5.0 (Linux; Android 5.1.1; Nexus 6 Build/LYZ28E) AppleWebKit/53
+7.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Mobile Safari/537.36' ] } }
+
+
+
+'------http_client: '
+ClientRequest {
+  domain: null,
+  _events:
+   { response: { [Function: bound onceWrapper] listener: [Function] },
+     socket: { [Function: bound onceWrapper] listener: [Function: onSocket] } },
+
+  _eventsCount: 2,
+  _maxListeners: undefined,
+  output:
+   [ 'POST /weapi/login/cellphone HTTP/1.1\r\nAccept: */*\r\nAccept-Language: zh
+-CN,zh;q=0.8,gl;q=0.6,zh-TW;q=0.4\r\nConnection: keep-alive\r\nContent-Type: app
+lication/x-www-form-urlencoded\r\nReferer: http://music.163.com\r\nHost: music.1
+63.com\r\nCookie: Phpstorm-d94e29df=bd7baa35-4aa8-4300-bc9e-707a14903676; Hm_lvt
+_82116c626a8d504a5c0675073362ef6f=1507600384,1507606249; oracle.uix=0^^GMT+8:00^
+p; __remember_me=true; MUSIC_U=13b64ea483c469314a584fafcfc55e69c2818753788652614
+2ab3eccc26b9db5743fc8db9642f71235671f2ddd10f2d141049cea1c6bb9b6; __csrf=39a30976
+579ea600f56d858a32ddee47\r\nUser-Agent: Mozilla/5.0 (Linux; Android 5.1.1; Nexus
+ 6 Build/LYZ28E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Mob
+ile Safari/537.36\r\nTransfer-Encoding: chunked\r\n\r\n1e0',
+     <Buffer 0d 0a>,
+     'params=fo0M6WtjQglyn6i7QuUPr%2BGAYNGkexjDG%2BwZMK634Hra%2Ft2M5PcSSfhs6swaq
+SgQjGtQ0esXgnnQ8OJCCJV1PsHZJGaj8%2BJ51SZiis4vbfXGaDCXgd2NeP0%2B7dJqISfGZpbWID8rb
+tTuKbJ4np18Fk%2FJhiI8h2xGngFnKqxM1S5ruUv9n0%2Ft0DCmbxdASZpf&encSecKey=bcf6ff0e6e
+12130ec27c3938bc4472b3de5b9b32f87176693c4cfc93603ec57db3288479ca1771dec857076e38
+f84d61f7f0c18fa367c5faed8885124b544291b2cbc46b0f5923c1e9082e66fcfee375218d2bf943
+9c76bf6c4ffc7e12b6cabe862eca654ad57e5a623474077967a1a1acff20760a4092a353afbff1b9
+c5cca8',
+     <Buffer 0d 0a> ],
+  outputEncodings: [ 'latin1', null, undefined, null ],
+  outputCallbacks: [ null, null, null, undefined ],
+  outputSize: 1234,
+  writable: true,
+  _last: true,
+  upgrading: false,
+  chunkedEncoding: true,
+  shouldKeepAlive: true,
+  useChunkedEncodingByDefault: true,
+  sendDate: false,
+  _removedConnection: false,
+  _removedContLen: false,
+  _removedTE: false,
+  _contentLength: null,
+  _hasBody: true,
+  _trailer: '',
+  finished: false,
+  _headerSent: true,
+  socket: null,
+  connection: null,
+  _header: 'POST /weapi/login/cellphone HTTP/1.1\r\nAccept: */*\r\nAccept-Langua
+ge: zh-CN,zh;q=0.8,gl;q=0.6,zh-TW;q=0.4\r\nConnection: keep-alive\r\nContent-Typ
+e: application/x-www-form-urlencoded\r\nReferer: http://music.163.com\r\nHost: m
+usic.163.com\r\nCookie: Phpstorm-d94e29df=bd7baa35-4aa8-4300-bc9e-707a14903676;
+Hm_lvt_82116c626a8d504a5c0675073362ef6f=1507600384,1507606249; oracle.uix=0^^GMT
++8:00^p; __remember_me=true; MUSIC_U=13b64ea483c469314a584fafcfc55e69c2818753788
+6526142ab3eccc26b9db5743fc8db9642f71235671f2ddd10f2d141049cea1c6bb9b6; __csrf=39
+a30976579ea600f56d858a32ddee47\r\nUser-Agent: Mozilla/5.0 (Linux; Android 5.1.1;
+ Nexus 6 Build/LYZ28E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.1
+15 Mobile Safari/537.36\r\nTransfer-Encoding: chunked\r\n\r\n',
+  _onPendingData: [Function: noopPendingOutput],
+  agent:
+   Agent {
+     domain: null,
+     _events: { free: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     defaultPort: 80,
+     protocol: 'http:',
+     options: { path: null },
+     requests: {},
+     sockets: { 'music.163.com:80:': [Array] },
+     freeSockets: {},
+     keepAliveMsecs: 1000,
+     keepAlive: false,
+     maxSockets: Infinity,
+     maxFreeSockets: 256 },
+  socketPath: undefined,
+  timeout: undefined,
+  method: 'POST',
+  path: '/weapi/login/cellphone',
+  _ended: false,
+  res: null,
+  aborted: undefined,
+  timeoutCb: null,
+  upgradeOrConnect: false,
+  parser: null,
+  maxHeadersCount: null,
+  [Symbol(outHeadersKey)]:
+   { accept: [ 'Accept', '*/*' ],
+     'accept-language': [ 'Accept-Language', 'zh-CN,zh;q=0.8,gl;q=0.6,zh-TW;q=0.
+4' ],
+     connection: [ 'Connection', 'keep-alive' ],
+     'content-type': [ 'Content-Type', 'application/x-www-form-urlencoded' ],
+     referer: [ 'Referer', 'http://music.163.com' ],
+     host: [ 'Host', 'music.163.com' ],
+     cookie:
+      [ 'Cookie',
+        'Phpstorm-d94e29df=bd7baa35-4aa8-4300-bc9e-707a14903676; Hm_lvt_82116c62
+6a8d504a5c0675073362ef6f=1507600384,1507606249; oracle.uix=0^^GMT+8:00^p; __reme
+mber_me=true; MUSIC_U=13b64ea483c469314a584fafcfc55e69c28187537886526142ab3eccc2
+6b9db5743fc8db9642f71235671f2ddd10f2d141049cea1c6bb9b6; __csrf=39a30976579ea600f
+56d858a32ddee47' ],
+     'user-agent':
+      [ 'User-Agent',
+        'Mozilla/5.0 (Linux; Android 5.1.1; Nexus 6 Build/LYZ28E) AppleWebKit/53
+7.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Mobile Safari/537.36' ] } }
+'data: '
+{ phone: '15679454131',
+  password: '2dd1a57d7466d7f5e9fe8df131aff28e',
+  rememberLogin: 'true' }
