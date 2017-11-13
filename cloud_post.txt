@@ -1,16 +1,25 @@
 'cookie: '
 'Phpstorm-d94e29df=bd7baa35-4aa8-4300-bc9e-707a14903676; Hm_lvt_82116c626a8d504a
 5c0675073362ef6f=1507600384,1507606249; oracle.uix=0^^GMT+8:00^p; __remember_me=
-true; MUSIC_U=13b64ea483c46931532c28b78954a8cd024bac9eba2f728cd529782a2d259be44d
-f4ac65e23eb63fe4dd50b6898bb7778bafcdfe5ad2b092; __csrf=bfe132f2859e0894146cd1207
+true; 
+MUSIC_U=13b64ea483c46931532c28b78954a8cd024bac9eba2f728cd529782a2d259be44df4ac65e23eb63fe4dd50b6898bb7778bafcdfe5ad2b092; 
+__csrf=bfe132f2859e0894146cd1207
 c445f3f'
 
 'cookie: '
 'Phpstorm-d94e29df=bd7baa35-4aa8-4300-bc9e-707a14903676; Hm_lvt_82116c626a8d504a
 5c0675073362ef6f=1507600384,1507606249; oracle.uix=0^^GMT+8:00^p; __remember_me=
-true; MUSIC_U=13b64ea483c469314a584fafcfc55e6975a1a99938003b14c9914a918a98384dff
-8acbf55cc5ff92d173c719dcb7f2decb19b68a33677785; __csrf=9ef0fb502df603f21ea1feae0
+true; 
+MUSIC_U=13b64ea483c469314a584fafcfc55e6975a1a99938003b14c9914a918a98384dff8acbf55cc5ff92d173c719dcb7f2decb19b68a33677785; 
+__csrf=9ef0fb502df603f21ea1feae0
 0d82872'
+
+Phpstorm-d94e29df=bd7baa35-4aa8-4300-bc9e-707a14903676; Hm_lvt_82116c626a8d504a
+5c0675073362ef6f=1507600384,1507606249; oracle.uix=0^^GMT+8:00^p; __remember_me=
+true; 
+MUSIC_U=13b64ea483c469311fdab1419740fbc767cb959a344ebb0adec44db8fea485abafe78e1c6ae9f231fd3bbfe4065d4303cb19b68a33677785; 
+__csrf=65a64dc465f7d1354805355764680806
+
 
 
 'host: '
@@ -117,16 +126,16 @@ ClientRequest {
   _eventsCount: 2,
   _maxListeners: undefined,
   output:
-   [ 'POST /weapi/login/cellphone HTTP/1.1\r\nAccept: */*\r\nAccept-Language: zh
--CN,zh;q=0.8,gl;q=0.6,zh-TW;q=0.4\r\nConnection: keep-alive\r\nContent-Type: app
-lication/x-www-form-urlencoded\r\nReferer: http://music.163.com\r\nHost: music.1
-63.com\r\nCookie: Phpstorm-d94e29df=bd7baa35-4aa8-4300-bc9e-707a14903676; Hm_lvt
+   [ 'POST /weapi/login/cellphone HTTP/1.1r Accept: */*r Accept-Language: zh
+-CN,zh;q=0.8,gl;q=0.6,zh-TW;q=0.4r Connection: keep-aliver Content-Type: app
+lication/x-www-form-urlencodedr Referer: http://music.163.comr Host: music.1
+63.comr Cookie: Phpstorm-d94e29df=bd7baa35-4aa8-4300-bc9e-707a14903676; Hm_lvt
 _82116c626a8d504a5c0675073362ef6f=1507600384,1507606249; oracle.uix=0^^GMT+8:00^
 p; __remember_me=true; MUSIC_U=13b64ea483c469314a584fafcfc55e69c2818753788652614
 2ab3eccc26b9db5743fc8db9642f71235671f2ddd10f2d141049cea1c6bb9b6; __csrf=39a30976
-579ea600f56d858a32ddee47\r\nUser-Agent: Mozilla/5.0 (Linux; Android 5.1.1; Nexus
+579ea600f56d858a32ddee47r User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; Nexus
  6 Build/LYZ28E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Mob
-ile Safari/537.36\r\nTransfer-Encoding: chunked\r\n\r\n1e0',
+ile Safari/537.36r Transfer-Encoding: chunkedr r 1e0',
      <Buffer 0d 0a>,
      'params=fo0M6WtjQglyn6i7QuUPr%2BGAYNGkexjDG%2BwZMK634Hra%2Ft2M5PcSSfhs6swaq
 SgQjGtQ0esXgnnQ8OJCCJV1PsHZJGaj8%2BJ51SZiis4vbfXGaDCXgd2NeP0%2B7dJqISfGZpbWID8rb
@@ -156,16 +165,16 @@ c5cca8',
   _headerSent: true,
   socket: null,
   connection: null,
-  _header: 'POST /weapi/login/cellphone HTTP/1.1\r\nAccept: */*\r\nAccept-Langua
-ge: zh-CN,zh;q=0.8,gl;q=0.6,zh-TW;q=0.4\r\nConnection: keep-alive\r\nContent-Typ
-e: application/x-www-form-urlencoded\r\nReferer: http://music.163.com\r\nHost: m
-usic.163.com\r\nCookie: Phpstorm-d94e29df=bd7baa35-4aa8-4300-bc9e-707a14903676;
+  _header: 'POST /weapi/login/cellphone HTTP/1.1r Accept: */*r Accept-Langua
+ge: zh-CN,zh;q=0.8,gl;q=0.6,zh-TW;q=0.4r Connection: keep-aliver Content-Typ
+e: application/x-www-form-urlencodedr Referer: http://music.163.comr Host: m
+usic.163.comr Cookie: Phpstorm-d94e29df=bd7baa35-4aa8-4300-bc9e-707a14903676;
 Hm_lvt_82116c626a8d504a5c0675073362ef6f=1507600384,1507606249; oracle.uix=0^^GMT
 +8:00^p; __remember_me=true; MUSIC_U=13b64ea483c469314a584fafcfc55e69c2818753788
 6526142ab3eccc26b9db5743fc8db9642f71235671f2ddd10f2d141049cea1c6bb9b6; __csrf=39
-a30976579ea600f56d858a32ddee47\r\nUser-Agent: Mozilla/5.0 (Linux; Android 5.1.1;
+a30976579ea600f56d858a32ddee47r User-Agent: Mozilla/5.0 (Linux; Android 5.1.1;
  Nexus 6 Build/LYZ28E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.1
-15 Mobile Safari/537.36\r\nTransfer-Encoding: chunked\r\n\r\n',
+15 Mobile Safari/537.36r Transfer-Encoding: chunkedr r ',
   _onPendingData: [Function: noopPendingOutput],
   agent:
    Agent {
@@ -217,3 +226,44 @@ mber_me=true; MUSIC_U=13b64ea483c469314a584fafcfc55e69c28187537886526142ab3eccc2
 { phone: '15679454131',
   password: '2dd1a57d7466d7f5e9fe8df131aff28e',
   rememberLogin: 'true' }
+  
+  
+  
+  
+  
+  
+  'function urlencoded(options) {   var opts = options || {}    // notice becau
+se option default will flip in next major   if (opts.extended === undefined) {
+n    deprecate('undefined extended: provide extended option')   }    var ex
+tended = opts.extended !== false   var inflate = opts.inflate !== false   var
+limit = typeof opts.limit !== 'number'     ? bytes.parse(opts.limit || '100k
+b')     : opts.limit   var type = opts.type || 'application/x-www-form-urlen
+coded'   var verify = opts.verify || false    if (verify !== false && typeof
+ verify !== 'function') {     throw new TypeError('option verify must be fun
+ction')   }    // create the appropriate query parser   var queryparse = ex
+tended     ? extendedparser(opts)     : simpleparser(opts)    // create the
+appropriate type checking function   var shouldParse = typeof type !== 'functi
+on'     ? typeChecker(type)     : type    function parse (body) {     retu
+rn body.length       ? queryparse(body)       : {}   }    return function u
+rlencodedParser (req, res, next) {     if (req._body) {       debug('body alr
+eady parsed')       next()       return     }      req.body = req.body ||
+{}      // skip requests without bodies     if (!typeis.hasBody(req)) { 
+  debug('skip empty body')       next()       return     }      debug('c
+ontent-type %j', req.headers['content-type'])      // determine if request
+should be parsed     if (!shouldParse(req)) {       debug('skip parsing') 
+     next()       return     }      // assert charset     var charset = get
+Charset(req) || 'utf-8'     if (charset !== 'utf-8') {       debug('inval
+id charset')       next(createError(415, 'unsupported charset "' + charset.t
+oUpperCase() + '"', {         charset: charset,         type: 'charset.unsu
+pported'       }))       return     }      // read     read(req, res, nex
+t, parse, debug, {       debug: debug,       encoding: charset,       inflate
+: inflate,       limit: limit,       verify: verify     })   } }
+  
+  
+  
+  
+  
+  
+  
+  
+  

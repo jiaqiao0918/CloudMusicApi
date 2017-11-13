@@ -44,12 +44,12 @@ function createWebAPIRequest(
   console.dir("      "+path);
   console.dir("method: ");
   console.dir("      "+method);
-  //console.dir("data: ");
-  //console.dir("      "+data);
-  //console.dir("cookie: ");
-  //console.dir("      "+cookie);
-  //console.dir("callback: ");
-  //console.dir("      "+callback);
+  console.dir("data: ");
+  console.dir("      "+data);
+  console.dir("cookie: ");
+  console.dir("      "+cookie);
+  console.dir("callback: ");
+  console.dir("      "+callback);
   //console.dir("errorcallback: ");
   //console.dir("      "+errorcallback);
   const http_client = http.request(
