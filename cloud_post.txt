@@ -1,3 +1,31 @@
+'cookie: '
+'Phpstorm-d94e29df=bd7baa35-4aa8-4300-bc9e-707a14903676; Hm_lvt_82116c626a8d504a
+5c0675073362ef6f=1507600384,1507606249; oracle.uix=0^^GMT+8:00^p; __remember_me=
+true; MUSIC_U=13b64ea483c46931532c28b78954a8cd024bac9eba2f728cd529782a2d259be44d
+f4ac65e23eb63fe4dd50b6898bb7778bafcdfe5ad2b092; __csrf=bfe132f2859e0894146cd1207
+c445f3f'
+
+'cookie: '
+'Phpstorm-d94e29df=bd7baa35-4aa8-4300-bc9e-707a14903676; Hm_lvt_82116c626a8d504a
+5c0675073362ef6f=1507600384,1507606249; oracle.uix=0^^GMT+8:00^p; __remember_me=
+true; MUSIC_U=13b64ea483c469314a584fafcfc55e6975a1a99938003b14c9914a918a98384dff
+8acbf55cc5ff92d173c719dcb7f2decb19b68a33677785; __csrf=9ef0fb502df603f21ea1feae0
+0d82872'
+
+
+'host: '
+'      music.163.com'
+'path: '
+'      /weapi/login/cellphone'
+'method: '
+'      POST'
+'data: '
+{ phone: '15679454131',
+  password: '2dd1a57d7466d7f5e9fe8df131aff28e',
+  rememberLogin: 'true' }
+  
+  
+
 '++++++http_client: '
 ClientRequest {
   domain: null,

@@ -14,6 +14,9 @@ router.get('/', (req, res) => {
     password: md5password,
     rememberLogin: 'true'
   }
+  console.dir(req.get('Cookie'));
+  console.dir("cookie: ")
+  console.dir(cookie)
   createWebAPIRequest(
     'music.163.com',
     '/weapi/login/cellphone',
@@ -29,6 +32,7 @@ router.get('/', (req, res) => {
     },
     err => res.status(502).send('fetch error')
   )
+console.dir(req.get('Cookie') ? 'is_null' : 'not_null')
   console.dir("data: ")
   console.dir(data)
 })

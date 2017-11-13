@@ -38,12 +38,12 @@ function createWebAPIRequest(
 ) {
   let music_req = ''
   const cryptoreq = Encrypt(data)
-  //console.dir("host: ");
-  //console.dir("      "+host);
-  //console.dir("path: ");
-  //console.dir("      "+path);
-  //console.dir("method: ");
-  //console.dir("      "+method);
+  console.dir("host: ");
+  console.dir("      "+host);
+  console.dir("path: ");
+  console.dir("      "+path);
+  console.dir("method: ");
+  console.dir("      "+method);
   //console.dir("data: ");
   //console.dir("      "+data);
   //console.dir("cookie: ");
@@ -94,16 +94,18 @@ function createWebAPIRequest(
       }
     }
   )
-  console.dir("++++++http_client: ");
-  console.log(http_client);
+  //console.dir("++++++http_client: ");
+  //console.log(http_client);
   http_client.write(
     querystring.stringify({
       params: cryptoreq.params,
       encSecKey: cryptoreq.encSecKey
     })
   )
-  console.dir("------http_client: ");
-  console.log(http_client);
+  //console.dir("------cryptoreq.params: ");
+  //console.log(cryptoreq.params);
+  //console.dir("------cryptoreq.encSecKey: ");
+  //console.log(cryptoreq.encSecKey);
   http_client.end()
 }
 
